@@ -40,8 +40,8 @@ Overall, I'm driven by a deep curiosity and a desire to make a positive impact o
         category: 'Machine Learning',
         decorator: 'ml.png',
         progress: {
-          'Natural Language Processing': 9,
-          'Reinforcement learning': 7,
+          'Natural Language Processing': 7,
+          'Reinforcement learning': 6,
           'Behind the scene maths': 9,
         },
       },
