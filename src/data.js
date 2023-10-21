@@ -119,15 +119,25 @@ Overall, I'm driven by a deep curiosity and a desire to make a positive impact o
         hero: 'fitnets.jpg',
       },
       {
-        title: 'Ubuntu Support Chats',
+        title: 'Commonlit Evaluate Student summaries',
         description:
-          'Researched state of art techniques for response selection (semantic search) in ChatBot development. Now working on training a deep learning model in PyTorch which will find most similar response from historical chats for a given user query. Dataset: Ubuntu Dialogue Corpus. The model will be evaluated using Recall@k metric.',
+          'Developed ML models to score the student summaries for content and wording scores as defined in Kaggle competition. Engineered several language features from raw text data, which would effect the quality and structure of summaries',
         date: '2023',
-        tags: ['NLP', 'PyTorch', 'Python'],
+        tags: ['NLP', 'Sklearn', 'Python'],
         code: '',
-        url: 'https://www.kaggle.com/datasets/rtatman/ubuntu-dialogue-corpus',
-        hero: 'https://images.unsplash.com/photo-1629654291663-b91ad427698f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3474&q=80',
+        url: 'https://www.kaggle.com/competitions/commonlit-evaluate-student-summaries',
+        hero: 'https://unsplash.com/photos/OyCl7Y4y0Bk?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash',
       },
+      // {
+      //   title: 'Ubuntu Support Chats',
+      //   description:
+      //     'Researched state of art techniques for response selection (semantic search) in ChatBot development. Now working on training a deep learning model in PyTorch which will find most similar response from historical chats for a given user query. Dataset: Ubuntu Dialogue Corpus. The model will be evaluated using Recall@k metric.',
+      //   date: '2023',
+      //   tags: ['NLP', 'PyTorch', 'Python'],
+      //   code: '',
+      //   url: 'https://www.kaggle.com/datasets/rtatman/ubuntu-dialogue-corpus',
+      //   hero: 'https://images.unsplash.com/photo-1629654291663-b91ad427698f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3474&q=80',
+      // },
       {
         title: 'Chat Intent Recognition',
         description:
@@ -184,7 +194,7 @@ Overall, I'm driven by a deep curiosity and a desire to make a positive impact o
         description:
           "Leveraged Scikit Learn's SVM 1-vs-1 and 1-vs-rest classifiers in Python over Amazon Commerce Reviews Dataset, with accuracy of 97% and 96% respectively. Visualized precision and recall using matplotlib. The dataset was preprocessed using TF-IDF vectorization.",
         date: '2016',
-        tags: ['Classification', 'Python'],
+        tags: ['Classification', 'Python', 'Sklearn'],
         code: '',
         url: '',
         hero: 'https://images.unsplash.com/photo-1522648695590-c76b02bfa717?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3542&q=80',
@@ -260,7 +270,7 @@ Overall, I'm driven by a deep curiosity and a desire to make a positive impact o
       },
       {
         company: 'Goldman Sachs',
-        position: 'Machine Learning Scientist',
+        position: 'Computer Scientist (ML)',
         statue: 'Full-time',
         startDate: 'Jul 2018',
         endDate: 'Jan 2021',
