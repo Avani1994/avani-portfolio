@@ -144,7 +144,7 @@ export const Footer = () => {
                 textAlign={['center', 'left']}
               >
                 Did you know that 99% of people who don't get in touch with me
-                end up regretting it? Don't be that 1%. Let's chat!
+                end up regretting it? Be that 1%. Let's chat!
               </Heading>
               <HStack gap={0} mt={4}>
                 {socials.map(data => (

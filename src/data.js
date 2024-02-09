@@ -1,7 +1,7 @@
 export const data = {
   name: 'Avani Sharma',
-  jobTitle: 'Machine Learning Engineer',
-  shortIntro: `Greetings, fellow humans and robots alike! I'm Avani Sharma, a Machine Learning Engineer with a Masters degree from the University of Utah who's always on the hunt for the next big breakthrough. But when I'm not busy teaching machines to think, you can find me exploring the world!`,
+  jobTitle: 'Machine Learning Scientist',
+  shortIntro: `Greetings, fellow humans and robots alike! I'm Avani Sharma, a Machine Learning Scientist with a Masters degree from the University of Utah who's always on the hunt for the next big breakthrough. But when I'm not busy teaching machines to think, you can find me exploring the world!`,
   email: 'avaninith@gmail.com',
   phone: '+1 (385)-216-2582',
   avatar: 'avani.jpg',
@@ -26,7 +26,7 @@ export const data = {
   about: {
     title: 'About Me',
     subtitle: 'Why am I the right person for the job?',
-    description: `As a <b>Machine Learning Engineer</b>, I'm passionate about using data to solve complex problems and make informed decisions. I specialize in <b>Natural Language Processing (NLP)</b>, which allows me to analyze and understand human language in a way that's both fascinating and incredibly useful. Whether it's building chatbots or developing algorithms that can predict consumer behavior, I'm always looking for new ways to apply my skills and push the boundaries of what's possible. 🤖
+    description: `As a <b>Machine Learning Scientist</b>, I'm passionate about using data to solve complex problems and make informed decisions. I specialize in <b>Natural Language Processing (NLP)</b>, which allows me to analyze and understand human language in a way that's both fascinating and incredibly useful. Whether it's building chatbots or developing algorithms that can predict consumer behavior, I'm always looking for new ways to apply my skills and push the boundaries of what's possible. 🤖
 
 One of my greatest strengths is my ability to think creatively and outside the box. I'm not content with simply following established methods - I'm always looking for new approaches and innovative solutions. This mindset has led me to develop some truly groundbreaking projects, such as a machine learning model that can predict the stock market very accurately 💡 <i>(shhh!)</i>. 
     
@@ -99,6 +99,26 @@ Overall, I'm driven by a deep curiosity and a desire to make a positive impact o
     subtitle: 'Welcome to my workshop',
     projects: [
       {
+        title: 'Mistral 7B Fine Tuning',
+        description:
+          'Researched, studied and fine tuned LLM Mistral 7B (mistralai/Mistral-7B-v0.1) on Guanaco(mlabonne/guanaco-llama2-1k). Hugging Face link for fine tuned model is ',
+        date: '2024',
+        tags: ['Python', 'LLMs', 'Fine Tuning'],
+        code: '',
+        url: '',
+        hero: 'https://unsplash.com/photos/a-close-up-of-a-logo-on-a-cell-phone-iN_edw1iHII?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash',
+      },
+      {
+        title: 'Stock Investment',
+        description:
+          'Researched and built an Reinforcement Learning agent based on OHLCV environment to guide on the amount that should be invested each day based on how market is doing. The agent was trained using Q-learning algorithm and achieved a cumulative return of 25% over a period of 6 months.',
+        date: '2023',
+        tags: ['Python', 'Reinforcement Learning'],
+        code: '',
+        url: '',
+        hero: 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80',
+      },
+      {
         title: 'Stock Investment',
         description:
           'Researched and built an Reinforcement Learning agent based on OHLCV environment to guide on the amount that should be invested each day based on how market is doing. The agent was trained using Q-learning algorithm and achieved a cumulative return of 25% over a period of 6 months.',
@@ -121,7 +141,7 @@ Overall, I'm driven by a deep curiosity and a desire to make a positive impact o
       {
         title: 'Commonlit Evaluate Student summaries',
         description:
-          'Developed ML models to score the student summaries for content and wording scores as defined in Kaggle competition. Engineered several language features from raw text data, which would effect the quality and structure of summaries',
+          'Developed ML models to score the student summaries for content and wording scores as defined in Kaggle competition. Engineered several language features from raw text data, which would effect the quality and structure of summaries.',
         date: '2023',
         tags: ['NLP', 'Sklearn', 'Python'],
         code: '',
