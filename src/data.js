@@ -101,12 +101,12 @@ Overall, I'm driven by a deep curiosity and a desire to make a positive impact o
       {
         title: 'Mistral 7B Fine Tuning',
         description:
-          'Researched, studied and fine tuned LLM Mistral 7B (mistralai/Mistral-7B-v0.1) on Guanaco(mlabonne/guanaco-llama2-1k). Hugging Face link for fine tuned model is ',
+          'Researched, studied and fine tuned LLM Mistral 7B (mistralai/Mistral-7B-v0.1) on Guanaco(mlabonne/guanaco-llama2-1k).',
         date: '2024',
         tags: ['Python', 'LLMs', 'Fine Tuning'],
         code: '',
-        url: '',
-        hero: 'https://unsplash.com/photos/a-close-up-of-a-logo-on-a-cell-phone-iN_edw1iHII?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash',
+        url: 'https://huggingface.co/AvaniSharma/mistral_7b_guanaco',
+        hero: 'mistral7b.jpg'
       },
       {
         title: 'Stock Investment',
@@ -146,7 +146,7 @@ Overall, I'm driven by a deep curiosity and a desire to make a positive impact o
         tags: ['NLP', 'Sklearn', 'Python'],
         code: '',
         url: 'https://www.kaggle.com/competitions/commonlit-evaluate-student-summaries',
-        hero: 'https://unsplash.com/photos/OyCl7Y4y0Bk?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash',
+        hero: 'commonlit.jpg',
       },
       // {
       //   title: 'Ubuntu Support Chats',
