@@ -101,7 +101,7 @@ Overall, I'm driven by a deep curiosity and a desire to make a positive impact o
       {
         title: 'Mistral 7B Fine Tuning',
         description:
-          'Researched, studied and fine tuned LLM Mistral 7B (mistralai/Mistral-7B-v0.1) on Guanaco(mlabonne/guanaco-llama2-1k).',
+          'Researched, studied and fine tuned LLM Mistral 7B (mistralai/Mistral-7B-v0.1) on Guanaco(mlabonne/guanaco-llama2-1k) using QLORA. QLORA first loads the model in 4 bits precision and then uses Parameter Efficient Tuning technique Low Rank Adopters for fine tuning',
         date: '2024',
         tags: ['Python', 'LLMs', 'Fine Tuning'],
         code: '',
@@ -119,23 +119,13 @@ Overall, I'm driven by a deep curiosity and a desire to make a positive impact o
         hero: 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80',
       },
       {
-        title: 'Stock Investment',
-        description:
-          'Researched and built an Reinforcement Learning agent based on OHLCV environment to guide on the amount that should be invested each day based on how market is doing. The agent was trained using Q-learning algorithm and achieved a cumulative return of 25% over a period of 6 months.',
-        date: '2023',
-        tags: ['Python', 'Reinforcement Learning'],
-        code: '',
-        url: '',
-        hero: 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80',
-      },
-      {
         title: 'Fitnets Replication',
         description:
           'Implemented Fitnets in PyTorch for knowledge distillation after reading research papers. The model was trained on CIFAR-10 dataset and achieved a test accuracy of 90%. In FitNets, the student model is trained to mimic the intermediate representations of the teacher model, rather than its final output.',
         date: '2023',
         tags: ['PyTorch', 'Python'],
-        code: '',
-        url: '',
+        code: 'https://github.com/Avani1994/NLP/blob/main/FITNetsImplementation.ipynb',
+        url: 'https://github.com/Avani1994/NLP/blob/main/FITNetsImplementation.ipynb',
         hero: 'fitnets.jpg',
       },
       {
@@ -164,8 +154,8 @@ Overall, I'm driven by a deep curiosity and a desire to make a positive impact o
           'Researched state of art techniques for ChatBot development. Trained an intent classification language model by fine tuning BERT model on banking dataset in PyTorch. The model achieved an accuracy of 95% on the test set. Integrated the trained model with a ChatBot framework to enable natural language processing and improve user experience.',
         date: '2022',
         tags: ['NLP', 'PyTorch', 'ML'],
-        code: '',
-        url: '',
+        code: 'https://github.com/Avani1994/NLP/blob/main/Intent_Classification_on_Banking77_dataset.ipynb',
+        url: 'https://github.com/Avani1994/NLP/blob/main/Intent_Classification_on_Banking77_dataset.ipynb',
         hero: 'https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80',
       },
       {
@@ -195,7 +185,7 @@ Overall, I'm driven by a deep curiosity and a desire to make a positive impact o
         date: '2017',
         tags: ['Clustering', 'Machine Learning'],
         code: 'https://github.com/Avani1994/DM_Clustering_Vizualization_Webpages',
-        url: '',
+        url: 'https://github.com/Avani1994/DM_Clustering_Vizualization_Webpages',
         hero: 'clustering.png',
       },
       {
@@ -226,7 +216,7 @@ Overall, I'm driven by a deep curiosity and a desire to make a positive impact o
         date: '2016',
         tags: ['NLTK', 'Clustering'],
         code: 'https://github.com/Avani1994/Coreference_Resolution_NLP',
-        url: '',
+        url: 'https://github.com/Avani1994/Coreference_Resolution_NLP',
         hero: 'coreference.png',
       },
       {
